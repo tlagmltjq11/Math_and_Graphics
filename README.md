@@ -80,7 +80,7 @@ Algebra(대수)는 큰 수가 아니라 어떤 다른 것이 수를 대신한다
 
 
 ## 벡터<br>
-![벡터](https://user-images.githubusercontent.com/43705434/108397929-d4a36300-725b-11eb-89ca-a6cbd1d5c637.jpg)
+![벡터](https://user-images.githubusercontent.com/43705434/108397929-d4a36300-725b-11eb-89ca-a6cbd1d5c637.jpg){: width="300" height="300"}
 <br>
 
 **개념**<br>
@@ -115,12 +115,12 @@ Algebra(대수)는 큰 수가 아니라 어떤 다른 것이 수를 대신한다
 a벡터 + b벡터 = (a.x + b.x, a.y + b.y) <br>
 
 평행사변형을 만들고 가로지르는것을 상상하면 쉽다.<br>
-![벡터덧셈](https://user-images.githubusercontent.com/43705434/108397932-d5d49000-725b-11eb-8b12-d3ff622bd147.png)
+![벡터덧셈](https://user-images.githubusercontent.com/43705434/108397932-d5d49000-725b-11eb-8b12-d3ff622bd147.png){: width="300" height="300"}
 <br>
 
 또 다른 관점에서 살펴보면 두 벡터의 합은 서로 다른 방향의 두 힘이 충돌했을 때의<br> 
 그 합쳐진 힘의 진행 방향으로 해석될 수도 있다<br>
-![벡터덧셈 2](https://user-images.githubusercontent.com/43705434/108397935-d66d2680-725b-11eb-9298-0d7fdcef45ee.png)
+![벡터덧셈 2](https://user-images.githubusercontent.com/43705434/108397935-d66d2680-725b-11eb-9298-0d7fdcef45ee.png){: width="300" height="300"}
 <br>
 <br>
 <br>
@@ -129,7 +129,7 @@ a벡터 + b벡터 = (a.x + b.x, a.y + b.y) <br>
 a벡터 - b벡터 = (a.x - b.x, a.y - b.y)<br>
 a벡터 + -b벡터<br>
 
-![벡터뺄셈](https://user-images.githubusercontent.com/43705434/108397936-d705bd00-725b-11eb-9d11-c19fc881dd10.png)
+![벡터뺄셈](https://user-images.githubusercontent.com/43705434/108397936-d705bd00-725b-11eb-9d11-c19fc881dd10.png){: width="300" height="300"}
 <br>
 
 **벡터 스칼라곱셈**<br>
@@ -182,5 +182,7 @@ void Move()
 > 해당 3차원 벡터를 통해 유니티에서 좌표계를 나타낼 수 있다.<br>
 
 
-https://wergia.tistory.com/161
-https://wergia.tistory.com/209
+### 참조링크<br>
+https://blog.daum.net/eigenvalue/10856412 <br>
+https://wergia.tistory.com/161 <br>
+https://wergia.tistory.com/209 <br>
