@@ -80,7 +80,7 @@ Algebra(대수)는 큰 수가 아니라 어떤 다른 것이 수를 대신한다
 
 
 ## 벡터<br>
-![벡터](https://user-images.githubusercontent.com/43705434/108397929-d4a36300-725b-11eb-89ca-a6cbd1d5c637.jpg){: width="300" height="300"}
+<img src="https://user-images.githubusercontent.com/43705434/108397929-d4a36300-725b-11eb-89ca-a6cbd1d5c637.jpg" width="300" height="300">
 <br>
 
 **개념**<br>
@@ -180,7 +180,7 @@ void Move()
 ![3차원 좌표](https://user-images.githubusercontent.com/43705434/108397938-d705bd00-725b-11eb-9494-c212cef9b673.png)
 
 > 해당 3차원 벡터를 통해 유니티에서 좌표계를 나타낼 수 있다.<br>
-
+<br>
 
 ### 참조링크<br>
 https://blog.daum.net/eigenvalue/10856412 <br>
