@@ -122,7 +122,6 @@ a벡터 + b벡터 = (a.x + b.x, a.y + b.y) <br>
 그 합쳐진 힘의 진행 방향으로 해석될 수도 있다<br>
 ![벡터덧셈 2](https://user-images.githubusercontent.com/43705434/108397935-d66d2680-725b-11eb-9298-0d7fdcef45ee.png)
 <br>
-https://wergia.tistory.com/209
 <br>
 <br>
 
@@ -144,7 +143,9 @@ a벡터 x 3 = (a.x * 3, a.y * 3)<br>
 이러한 벡터의 길이를 ||V|| 로 표현한다.<br>
 Vector3 a;<br>
 a.magnitude(); // 벡터의 길이를 반환<br>
+<br>
 
+**벡터의 단위화**<br>
 Normalize(단위화)란 벡터의 길이를 1로 만들어서 순수히 방향만 나타내게끔 하는 것이다.<br>
 V / ||V|| 의 과정을 통해서 진행된다. => (x / ||V||, y / ||V||) 길이가 1이 되는 단위벡터가 됨.<br>
 Vector3 a;<br>
@@ -162,7 +163,7 @@ void Update()
 void Move()
 {
 	Vector3 dir = target.position - gameObejct.transform.position; //각 벡터를 원점에서 뻗어나오는 화살표라고 생각할때
-	//-> 그림설명 target.position + -gameObejct.transform.position 로 설명할 수 있으므로
+	//-> (벡터의 뺄셈 그림 참조) target.position + -gameObejct.transform.position 로 설명할 수 있으므로
 	//위와 같이 현재위치에서 타겟까지의 방향과 거리를 가진 벡터를 추출할 수 있다.
 	dir.Normalzie(); //단위벡터로 만들어 방향만을 추출
 	dir *= speed * Time.deltaTime; //speed * Time.deltaTime을 통해 1프레임 동안 이동할 거리를 결정
@@ -178,6 +179,8 @@ void Move()
 <br>
 ![3차원 좌표](https://user-images.githubusercontent.com/43705434/108397938-d705bd00-725b-11eb-9494-c212cef9b673.png)
 
-해당 3차원 벡터를 통해 유니티에서 좌표계를 나타낼 수 있음을 설명
-https://wergia.tistory.com/161 참고
+> 해당 3차원 벡터를 통해 유니티에서 좌표계를 나타낼 수 있다.<br>
 
+
+https://wergia.tistory.com/161
+https://wergia.tistory.com/209
