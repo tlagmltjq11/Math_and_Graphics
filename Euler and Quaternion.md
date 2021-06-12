@@ -1,5 +1,5 @@
 ## Euler
-<img src="https://user-images.githubusercontent.com/43705434/121767831-c88a3b00-cb95-11eb-8e65-1eca095cceec.PNG" width="400" height="400"><br>
+<img src="https://user-images.githubusercontent.com/43705434/121767831-c88a3b00-cb95-11eb-8e65-1eca095cceec.PNG" width="400" height="250"><br>
 <br>
 
 오일러 좌표계란 **x,y,z 3개의 축을 기준으로 0~360도 만큼 회전시키는** 우리에게 친숙한 좌표계이다.<br>
@@ -9,7 +9,7 @@
 
 (y축으로 회전하면 하위 모든 축이 함께 회전되며, x축으로 회전하면 z축이 함께 회전하게 된다.)<br>
 
-<img src="https://user-images.githubusercontent.com/43705434/121767833-c88a3b00-cb95-11eb-9bbd-88ce1ba1b427.PNG" width="400" height="400"><br>
+<img src="https://user-images.githubusercontent.com/43705434/121767833-c88a3b00-cb95-11eb-9bbd-88ce1ba1b427.PNG" width="400" height="250"><br>
 <br>
 <br>
 
