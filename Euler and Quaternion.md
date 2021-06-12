@@ -90,7 +90,7 @@ Euler angle 과는 다르게 쿼터니언은 4개의 성분(x, y, z, w)으로 �
 <br>
 
 ▶ API <br>
-1. Quaternion.Euler
+1. Quaternion.Euler<br>
 Quaternion.Euler 함수를 통해서 오일러각을 쿼터니언으로 변경시켜 사용한다.<br>
 해당 함수 인자에 오일러각을 넣으면 쿼터니언으로 변환된 값을 반환시켜준다. <br>
 
@@ -103,7 +103,7 @@ transform.roation = Quaternion.Euler(new Vector3(120,60,100));
 
 <br>
 
-2. Quaternion.LookRotation
+2. Quaternion.LookRotation<br>
 첫 번째 인자에 방향벡터를 입력하면 해당 방향을 바라보게 된다.<br>
 어떠한 타겟을 향해 회전시키고 싶다면 다음과 같이 사용하면 된다.<br>
 
@@ -118,7 +118,7 @@ this.transform.rotation = lookRotation;
 
 <br>
 
-3. Quaternion.Slerp
+3. Quaternion.Slerp<br>
 Quaternion.Slerp 함수는 두 쿼터니언의 중간값을 리턴 시켜준다. (구면선형보간법 기반)<br>
 
 ```c#
@@ -130,7 +130,7 @@ transform.rotation = Quaternion.Slerp(A.transform.rotation, B.transform.rotation
 
 <br>
 
-4. Quaternion.FromToRotation
+4. Quaternion.FromToRotation<br>
 FromToRotaion 함수는 fromDirection 의 방향벡터를 toDirection 으로 회전한 쿼터니언을 반환한다.<br>
 
 ```c#
